@@ -19,6 +19,7 @@ def upload_file():
 
     # Use secure_filename to sanitize the filename
     filename = secure_filename(file.filename)
+    print (filename)
 
     # Save the file to the uploads folder (create the folder if not exists)
     upload_folder = 'uploads'
